@@ -4,10 +4,10 @@ alert("Bienvenido/a a Santero Café. \n*Recuerda que la reserva mínima es para 
 
 function hacerReserva(nombreCliente, numPersonas) {
 	if (verificarDisponibilidad(numPersonas)) {
-	  alert(`La reserva a nombre de ${nombreCliente} ha sido exitosa! \nSe han reservado ${numPersonas} lugares a las ${horario} Hrs.`);
+	  alert("La reserva a nombre de " + nombreCliente + " ha sido exitosa! \nSe han reservado " + numPersonas + " lugares a las " + horario + "Hrs.");
 	  
 	} else {
-	  alert(`Lo siento, no hay mesas disponibles para ${numPersonas} persona.`);
+	  alert("Lo siento, no hay mesas disponibles para " + numPersonas + " persona.");
 	}
   }
   //Ingresar nombre
@@ -52,7 +52,7 @@ alert("Esperamos que vuelvas pronto. Gracias!");
   console.log(hacerReserva)
   
   alert("Gracias por la reserva, lo esperamos!");
-  
+  break
 }
 
 
